@@ -23,7 +23,7 @@ github-pages:
     contents: read
     pages: write
     id-token: write
-comment:
+    comment:
   name: Comment on PR
   if: always()
   needs: github-pages
