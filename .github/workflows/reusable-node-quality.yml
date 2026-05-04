@@ -1,3 +1,13 @@
+name: Reusable Node Quality Workflow
+
+on:
+  workflow_call:
+    inputs:
+      node-version:
+        description: 'Node version to use'
+        required: true
+        type: string
+
 jobs:
   lint:
     name: Lint
